@@ -1,4 +1,12 @@
 ---
 label: starter
 hide_body: false
-fields: []
+fields:
+- name: tools
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tools
+  description: Tools we use
