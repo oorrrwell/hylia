@@ -4,6 +4,21 @@ hide_body: false
 fields:
 - name: tools
   type: field_group_list
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
   config:
     min: 
     max: 
