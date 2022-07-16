@@ -19,16 +19,16 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
   config:
     min: 
     max: 
     labelField: 
   label: Tools
   description: Tools we use
-- name: url
-  type: text
-  config:
-    required: false
-  label: URL
 pages:
 - pages/Tools.md
