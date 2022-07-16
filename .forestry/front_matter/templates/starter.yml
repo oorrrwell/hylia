@@ -25,3 +25,5 @@ fields:
     labelField: 
   label: Tools
   description: Tools we use
+pages:
+- pages/Tools.md
