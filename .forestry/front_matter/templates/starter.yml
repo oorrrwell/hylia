@@ -25,5 +25,10 @@ fields:
     labelField: 
   label: Tools
   description: Tools we use
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
 pages:
 - pages/Tools.md
